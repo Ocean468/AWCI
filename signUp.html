@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+
+  <!--             bootstrap                   -->
+  <!-- version 3.4 -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <!-- version 5.1 -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/logup.css">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/0594d059e0.js" crossorigin="anonymous"></script>
+
+
+  <!--          Fonts         -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!---********* Script of js *************  -->
+  <!-- version 3.4 -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- version 5.1 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+
+
+
+  <body>
+    <section id="signUp">
+      <video class="background-video"src="Video/pexels-taro-5625316.mp4" autoplay muted loop poster="posterimage.jpg">
+    </video>
+
+    <div class="main-content h-100vh">
+      <div class="container h=100">
+
+        <div class="row h-100 align-items-center justify-content-center">
+
+          <div class="col-lg-6 col-md-8">
+            <div class="card">
+              <div class="card_body">
+    <div class="signup">
+      <img class="logo" src="images/logo6.png" alt="logo">
+      <h2 class="signup_h2">Create Your Account.</h2>
+    </div>
+      <div class="row">
+
+        <div class="First_name col-lg-6">
+          <label for="firstName">First Name</label>
+          <input class="firstname_detail login-area"type="text" name="firstname" required placeholder="First Name">
+        </div>
+
+        <div class="Last_name col-lg-6">
+          <label for="lastname">Last Name</label>
+          <input class="lastname_detail login-area"type="text" name="lastname" required placeholder="Last Name">
+        </div>
+
+      </div>
+
+      <div class="phone ">
+        <label for="phoneNo">Phone No.</label>
+        <input class="phone.no_detail login-area"type="tel" name="phoneNo" required placeholder="Enter your Phone No.">
+        <small id="val-phone-error" style="display: none;"class="text-danger">Phone No. exists already,Try Another</small>
+      </div>
+
+      <div class="email ">
+        <label for="emailid">Email adress</label>
+        <input class="emailid_detail login-area"type="email" name="emailid" required placeholder="Enter your email">
+        <small id="var-email-error" style="display:none;" class="text-danger">Email exists already, Try Another</small>
+      </div>
+
+      <div class="referral ">
+        <label for="referralid">Referral Id(Optional)</label>
+        <input class="referralid_detail login-area"type="text" name="referralid" required placeholder="Referral Id(Optional)">
+      </div>
+
+      <div class="password ">
+        <label for="password1">Password</label>
+        <input class="password1_detail login-area"type="password" name="password1" required placeholder="Enter your password">
+      </div>
+
+      <div class="confirm-password ">
+        <label for="c-password">Confirm Password</label>
+        <input class="c-password_detail login-area"type="password" name="c-password" required placeholder="Confirm your password">
+      </div>
+
+      <div class="checkbox1">
+        <input class="checkbox"type="checkbox" name="checkbox1" id="checkbox1">
+        <label class="checkbox_label"for="checkbox1">I Agree to AWCI
+        <a href="#">Term</a>  Of use
+        </label>
+      </div>
+
+        <div class="button1">
+          <button class="btn_1 btn-primary btn-lg" type="submit" name="button">Create account</button>
+        </div>
+
+        <div class="signIn">
+          <span>Already have an account?</span>
+          <a href="signIn.html">Sign in</a>
+        </div>
+
+      </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+</section>
+  </body>
+</html>

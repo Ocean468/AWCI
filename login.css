@@ -1,0 +1,99 @@
+body{
+  background-color: #FFFBDF;
+  text-align: center;
+}
+
+.background-video{
+  padding: 0%;
+  height: 100vh;
+  width: 100vw;
+ object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+.logo_img{
+  height: 90px;
+  width: 160px;
+  margin-bottom: 0.5rem;
+}
+
+.logo_h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.card{
+  margin: 150px 0;
+  padding: 4%;
+}
+
+.form-emailId{
+border: 0.5px solid #e1eaea;
+font-size: 13px;
+letter-spacing: 0.3px;
+width: 100%;
+text-align: left;
+padding: 0.6rem 0.5rem;
+margin-bottom: 1rem;
+}
+
+.login-password{
+  border: 0.5px solid #e1eaea;
+  font-size: 13px;
+  letter-spacing: .3px;
+  width: 100%;
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+
+}
+
+.password{
+  text-align: left;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.checkbox_1{
+  position: relative;
+  top: 4px;
+  margin-right: 3px;
+  width: 20px;
+  height: 20px;
+}
+
+
+  .checkbox_label{
+  font-size: 13px;
+}
+
+.forget-password{
+  font-size: 13px;
+  margin-left: 28%;
+}
+
+.home{
+  font-size: 13px;
+}
+
+.btn{
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .3px;
+  width: 100%;
+  padding: 0.6rem 1.75rem;
+  margin-bottom: 1.50rem;
+}
+
+.sign-up {
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  margin-bottom: 18px;
+}
